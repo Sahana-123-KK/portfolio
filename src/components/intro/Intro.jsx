@@ -21,7 +21,7 @@ const Intro = () => {
             too, I find Developing Websites so fun.If you guess need any help
             just ping me.
           </div>
-          <i className="bi bi-mouse-fill scroll"></i>
+          {/* <i className="bi bi-mouse-fill scroll"></i> */}
         </div>
       </div>
       <div className="i-right">

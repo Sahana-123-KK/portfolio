@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./contact.css";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const formRef = useRef();
+  const [done, setDone] = useState(false);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_4kkzr1c",
+        "template_a859br3",
+        formRef.current,
+        "76OKK347bzNxQ6wIV"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+          //   alert
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Couldn't Send");
+        }
+      );
+  };
   return (
     <div className="con">
       <div className="sty"></div>
@@ -30,7 +54,7 @@ const Contact = () => {
         </div>
 
         <div className="formscontact">
-          <form>
+          <form className="formclass" onSubmit={handleSubmit} ref={formRef}>
             <div className="mb-3">
               <label for="name" className="form-label">
                 Name
@@ -39,7 +63,8 @@ const Contact = () => {
                 type="text"
                 className="form-control"
                 id="name"
-                name="name"
+                name="user_name"
+                required
               />
             </div>
             <div className="mb-3">
@@ -47,10 +72,11 @@ const Contact = () => {
                 Subject
               </label>
               <input
+                required
                 type="text"
                 className="form-control"
                 id="subject"
-                name="subject"
+                name="user_subject"
                 aria-describedby="emailHelp"
               />
             </div>
@@ -60,7 +86,8 @@ const Contact = () => {
                 Email address
               </label>
               <input
-                name="email"
+                required
+                name="user_email"
                 type="email"
                 className="form-control"
                 id="email"
@@ -80,6 +107,7 @@ const Contact = () => {
             <button type="submit" className="btn btnown">
               Submit
             </button>
+            <p className="returnmessage">{done && "Thank You..."}</p>
           </form>
         </div>
       </div>
