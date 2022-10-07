@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.067949dd.css",
+    "main.js": "/portfolio/static/js/main.d5c5b52e.js",
+    "static/js/787.ddd594be.chunk.js": "/portfolio/static/js/787.ddd594be.chunk.js",
+    "static/media/myself.png": "/portfolio/static/media/myself.f6f93b46b0d458ed389b.png",
+    "static/media/project.jpg": "/portfolio/static/media/project.780816b6ba076cc2cc69.jpg",
+    "static/media/react.png": "/portfolio/static/media/react.73dbb5bcec516da82694.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.3a364684503a40b5fbb2.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.e53d77fae52c3827fb74.png",
+    "static/media/mern.png": "/portfolio/static/media/mern.88c11749963e60be4b49.png",
+    "static/media/css.png": "/portfolio/static/media/css.4e67641bb68b658d9b2b.png",
+    "static/media/me.png": "/portfolio/static/media/me.47d81a8afbca9968e30a.png",
+    "static/media/html.png": "/portfolio/static/media/html.23784160d848f734c302.png",
+    "static/media/skills.jpg": "/portfolio/static/media/skills.934ece73a9e8fcd80d1e.jpg",
+    "static/media/express.png": "/portfolio/static/media/express.fde8826b2a1c6c27df91.png",
+    "static/media/next.png": "/portfolio/static/media/next.a725f5cb51998c30c03a.png",
+    "static/media/django.png": "/portfolio/static/media/django.1561b91d7b75f3ca2814.png",
+    "index.html": "/portfolio/index.html",
+    "main.067949dd.css.map": "/portfolio/static/css/main.067949dd.css.map",
+    "main.d5c5b52e.js.map": "/portfolio/static/js/main.d5c5b52e.js.map",
+    "787.ddd594be.chunk.js.map": "/portfolio/static/js/787.ddd594be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.067949dd.css",
+    "static/js/main.d5c5b52e.js"
+  ]
+}
