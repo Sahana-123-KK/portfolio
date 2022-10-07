@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import random from "../../img/award.png";
+import me from "../../img/me.png";
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
 
         </div> */}
         <div className="cardleft">
-          <img src={random} alt="" className="a-img" />
+          <img src={me} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">

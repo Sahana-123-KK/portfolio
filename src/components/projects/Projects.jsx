@@ -10,7 +10,7 @@ const Projects = () => {
       </div>
       <div className="p-right">
         <h1 className="p-title">My Projects</h1>
-        
+
         <div className="pros">
           <div className="pro">
             <h2 className="headpro">Personal Portfolio </h2>
@@ -27,7 +27,9 @@ const Projects = () => {
               and like posts
             </span>
             <img src={project} alt="" className="proimg" />
-            <span className="ptech">Technologies Used: HTML,CSS,Bootstrap,MERN</span>
+            <span className="ptech">
+              Technologies Used: HTML,CSS,Bootstrap,MERN
+            </span>
           </div>
           <div className="pro">
             <h2 className="headpro">iNotebook</h2>
@@ -36,7 +38,9 @@ const Projects = () => {
               account,login,logout,create,update,delete and view their notes
             </span>
             <img src={project} alt="" className="proimg" />
-            <span className="ptech">Technologies Used: HTML,CSS,Bootstrap,MERN</span>
+            <span className="ptech">
+              Technologies Used: HTML,CSS,Bootstrap,MERN
+            </span>
           </div>
           <div className="pro">
             <h2 className="headpro">Hotel Booking App</h2>
@@ -47,7 +51,9 @@ const Projects = () => {
               user.
             </span>
             <img src={project} alt="" className="proimg" />
-            <span className="ptech">Technologies Used: HTML,CSS,Bootstrap,MERN</span>
+            <span className="ptech">
+              Technologies Used: HTML,CSS,Bootstrap,MERN
+            </span>
           </div>
           <div className="pro">
             <h2 className="headpro">Restaurant Webiste</h2>
