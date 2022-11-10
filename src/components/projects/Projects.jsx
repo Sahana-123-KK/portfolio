@@ -9,7 +9,7 @@ const Projects = () => {
         <img src={project} alt="" className="pr-img" />
       </div>
       <div className="p-right">
-        <h1 className="p-title">My Projects</h1>
+        <h1 className="p-title">My Projects😎</h1>
 
         <div className="pros">
           <div className="pro">
