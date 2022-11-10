@@ -17,41 +17,31 @@ const About = () => {
         <h1 className="a-title">About Me</h1>
         <p className="subtitle">Little description about myself</p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias quo
-          corrupti, eum quas magni ullam, at necessitatibus ratione nemo cum
-          facilis, labore obcaecati ipsam? Accusamus reiciendis similique
-          facilis quis possimus ducimus odit iste repellat.
+          I am a very Passionate Full Stack Developer, who gets fun developing
+          cool websites. I always look for oppurtunities to upskill and master.
+          I am very commited to my passion and Work.
         </p>
         <div className="ex">
           <h2 className="exp">Experience</h2>
           <div className="exlist">
             <div className="list">
               <h2 className="listtitle">Kameleon Technologies</h2>
-              <p className="role">
-                React Developer Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit. Soluta saepe culpa omnis?
-              </p>
+              <p className="role">React Developer Intern.</p>
             </div>
             <div className="list">
               <h2 className="listtitle">Tech Affairs Website IIITDM</h2>
               <p className="role">
-                Developed the Tech Affairs Website of IIITDM Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Qui natus incidunt
-                fugit.
+                Part of Development Team of the Tech Affairs Website of IIITDM
               </p>
             </div>
             <div className="list">
               <h2 className="listtitle">Smart Knower Internship</h2>
-              <p className="role">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                natus incidunt fugit.
-              </p>
+              <p className="role">Web Developer Internship Certification</p>
             </div>
             <div className="list">
               <h2 className="listtitle">Exposys Labs Intership</h2>
               <p className="role">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                natus incidunt fugit.
+                Web Developer Virtual Internship Certification
               </p>
             </div>
           </div>

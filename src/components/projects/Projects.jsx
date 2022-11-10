@@ -15,7 +15,7 @@ const Projects = () => {
           <div className="pro">
             <h2 className="headpro">Personal Portfolio </h2>
             <span className="pdesc">
-              Its a Portfolio website based on react
+              Its a Portfolio website built on react
             </span>
             <img src={project} alt="" className="proimg" />
             <span className="ptech">Technologies Used: HTML,CSS,React Js</span>
@@ -66,6 +66,27 @@ const Projects = () => {
             <span className="pdesc">College Website</span>
             <img src={project} alt="" className="proimg" />
             <span className="ptech">Technologies Used: HTML,CSS,Bootstrap</span>
+          </div>
+          <div className="pro">
+            <h2 className="headpro">iChat</h2>
+            <span className="pdesc">
+              Real-Time Chat Application,where people can connect together in
+              groups, and can send and read messages of fellow groupmates
+            </span>
+            <img src={project} alt="" className="proimg" />
+            <span className="ptech">
+              Technologies Used: HTML,CSS,JavaScript,Socket.io,Node Js
+            </span>
+          </div>
+          <div className="pro">
+            <h2 className="headpro">i-Spotify</h2>
+            <span className="pdesc">
+              Music Player-Where users can play,pause,play next,previous music
+            </span>
+            <img src={project} alt="" className="proimg" />
+            <span className="ptech">
+              Technologies Used: HTML,CSS,JavaScript
+            </span>
           </div>
         </div>
       </div>
